@@ -1,133 +1,93 @@
-# 🍽️ Zomato Sales Performance Dashboard – Power BI Project
+# 🍽️ Zomato Sales Analytics Dashboard — Power BI
 
-## 📌 Project Overview
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Data Modeling](https://img.shields.io/badge/Data%20Modeling-FF6B35?style=for-the-badge)
 
-This Power BI dashboard provides a comprehensive analysis of Zomato’s outlet performance, sales trends, and product-level insights.  
-The objective is to monitor key KPIs, identify high-performing segments, and support data-driven business decisions.
+> **Built by Ram Kumar** | Senior Data Analyst & Power BI Developer | [Portfolio](https://ramkumar-bi.netlify.app/) | [LinkedIn](https://www.linkedin.com/in/ram-kumar-a52640140/)
 
 ---
 
-## 🎯 Business Objectives
+## 📌 Business Problem
 
-- Analyze total sales performance across outlet types and locations
-- Identify top-performing item categories
-- Evaluate impact of outlet size and establishment year on revenue
-- Compare sales distribution based on item fat content
-- Monitor average rating and item visibility impact
+Restaurant chains lacked visibility into city-wise and category-wise sales performance, making expansion and marketing decisions reactive rather than data-driven. Management had no single view of outlet performance, item rankings, or revenue by location.
+
+## 💡 Solution
+
+Built a multi-page interactive Power BI dashboard analyzing **8,500+ items** across **multiple outlet types, sizes, and locations** — enabling instant drill-down into KPIs, revenue trends, and product performance.
 
 ---
 
 ## 📊 Key Performance Indicators (KPIs)
 
 | KPI | Value |
-|-----|-------|
-| 💰 Total Sales | 1.20M |
-| 📦 Number of Items | 8,523 |
-| 📈 Average Sales | 140.99 |
-| ⭐ Average Rating | 3.92 |
+|---|---|
+| 💰 Total Sales | **₹1.20M** |
+| 📦 Number of Items Tracked | **8,523** |
+| 📈 Average Sales Per Item | **₹140.99** |
+| ⭐ Average Customer Rating | **3.92 / 5** |
 
 ---
 
-## 📈 Dashboard Insights
+## 🔍 Key Insights Delivered
 
-### 1️⃣ Sales Trend by Outlet Establishment Year
-- Peak sales observed in 2018 (0.20M)
-- Stable sales trend from 2012–2022
-- Older outlets contribute consistently to revenue
-
-### 2️⃣ Sales by Outlet Location Type
-- Tier 3 leads with 472.13K
-- Tier 2 contributes 393.15K
-- Tier 1 generates 336.40K
-
-📌 Insight: Tier 3 locations are major revenue drivers.
+1. **Sales Trend by Outlet Year** — Peak sales in 2018 (₹0.20M); stable trend 2012–2022
+2. **Location Performance** — Tier 3 cities lead with ₹472K (vs Tier 1 at ₹336K)
+3. **Outlet Size Impact** — High-size outlets contribute 42.27% of total revenue
+4. **Product Category Leaders** — Fruits & Vegetables + Snack Foods each drive ₹0.18M
+5. **Fat Content Preference** — Regular items (64.6%) vs Low-Fat (35.4%) — actionable for menu planning
+6. **Top Outlet Type** — Supermarket Type1 dominates with ₹787K total sales
 
 ---
 
-### 3️⃣ Sales by Outlet Size
-- High Size Outlets: 42.27%
-- Medium Size Outlets: 37.01%
-- Small Size Outlets: 20.72%
+## 🛠️ Tools & Technologies
 
-📌 Insight: Larger outlets generate significantly higher sales.
-
----
-
-### 4️⃣ Sales by Item Fat Content
-- Regular Items: 64.6%
-- Low Fat Items: 35.4%
-
-📌 Insight: Customers prefer regular items over low-fat alternatives.
+| Tool | Usage |
+|---|---|
+| Power BI Desktop | Dashboard development, visualizations |
+| DAX | KPI measures, calculated columns, time intelligence |
+| Power Query | Data cleaning, transformation, ETL |
+| Data Modeling | Star schema relationships |
+| Excel | Source data preparation |
 
 ---
 
-### 5️⃣ Top Performing Item Categories
+## 📁 Files in This Repository
 
-| Category | Sales |
-|----------|-------|
-| Fruits & Vegetables | 0.18M |
-| Snack Foods | 0.18M |
-| Household | 0.14M |
-| Frozen Foods | 0.12M |
-| Dairy | 0.10M |
-
-📌 Insight: Fresh and snack categories dominate revenue contribution.
-
----
-
-### 6️⃣ Outlet Type Performance
-
-| Outlet Type | Total Sales |
-|-------------|-------------|
-| Supermarket Type1 | 787,549.89 |
-| Grocery Store | 151,939.15 |
-| Supermarket Type2 | 131,477.78 |
-| Supermarket Type3 | 130,714.67 |
-
-📌 Insight: Supermarket Type1 is the highest revenue contributor.
-
----
-
-## 🛠️ Tools & Technologies Used
-
-- Power BI
-- DAX (Data Analysis Expressions)
-- Data Modeling
-- Data Cleaning & Transformation
-
----
-
-## 📂 Files Included
-
-- `Zomato_Sales_Dashboard.pbix`
-- Dataset (Sample CSV)
-- Dashboard Screenshot
-- README.md
+| File | Description |
+|---|---|
+| `Zomato Dashboard.pbix` | Power BI project file |
+| `Zomato Data.xlsx` | Source dataset |
+| `Zomato Dashboard.jpg` | Dashboard screenshot |
+| `Zomato Sales Analysis.pptx` | Presentation deck |
+| `README.md` | Project documentation |
 
 ---
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Preview](Zomato Dashboard.jpg)
+![Zomato Dashboard Preview](Zomato%20Dashboard.jpg)
 
 ---
 
 ## 🚀 Business Impact
 
-This dashboard enables:
-
-✔ Performance monitoring across locations  
-✔ Strategic expansion planning  
-✔ Product category optimization  
-✔ Data-driven marketing decisions  
-✔ Revenue growth strategy formulation  
+✅ Identified Tier 3 cities as primary revenue driver — informing expansion strategy  
+✅ Pinpointed top 5 product categories contributing 60%+ of revenue  
+✅ Enabled category-wise margin analysis for procurement optimization  
+✅ Reduced ad-hoc reporting from hours to instant drill-down  
 
 ---
 
-## 📬 Contact
+## 👨‍💻 About the Author
 
-If you would like access to the PBIX file or have any suggestions, feel free to connect.
+**Ram Kumar** — Senior Data Analyst & Power BI Developer with 9+ years of experience in Business Intelligence, MIS Reporting, and Telecom Analytics.
+
+- 🔗 **Portfolio:** [ramkumar-bi.netlify.app](https://ramkumar-bi.netlify.app/)
+- 💼 **LinkedIn:** [linkedin.com/in/ram-kumar-a52640140](https://www.linkedin.com/in/ram-kumar-a52640140/)
+- 🐙 **GitHub:** [github.com/rkumar5676](https://github.com/rkumar5676)
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ If you found this project useful, consider giving it a **Star!**
